@@ -10,17 +10,15 @@ import Footer from "./sections/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <NavBar />
-        <Hero />
-        <About />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Contact />
-        <Footer />
-      </header>
+    <div className="text-beige bg-navy min-h-screen mx-auto">
+      <NavBar />
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
