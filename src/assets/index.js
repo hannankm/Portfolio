@@ -1,4 +1,5 @@
 import hijabi from "./mypic.jpg";
+import hijabi1 from "./mypic1.png";
 import database from "./database-storage1.png";
 import react from "./atom1.png";
 import mobile from "./coding1.png";
@@ -12,6 +13,7 @@ import desk1 from "./working (1).png";
 
 export {
   hijabi,
+  hijabi1,
   database,
   react,
   mobile,
