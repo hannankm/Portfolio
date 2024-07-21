@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // light mode
+        // beige: "#070F2B",
+        // navy: "#F8FAE5",
         navy: "#070F2B",
         beige: "#F8FAE5",
         highlight: "#FE7A36",
