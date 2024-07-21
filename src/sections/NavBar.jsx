@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { hijabi } from "../assets";
-
+import { hijabi1 } from "../assets";
 import { navLinks } from "../constants";
 import { HiOutlineMenu } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
@@ -11,9 +10,9 @@ const Navbar = () => {
   return (
     <nav className="flex py-2 justify-between items-center navbar px-5 sticky top-0 z-50 bg-navy">
       <img
-        className="md:mr-10 h-5 w-5"
-        src={hijabi}
-        alt="Ethiopian Space Space Society "
+        className="md:mr-10 h-10 w-10 rounded-full"
+        src={hijabi1}
+        alt="Hanan Kedir "
       />
 
       <ul className="font-sans font-semibold leading-[22.4px] list-none lg:flex hidden justify-end items-center flex-1">
@@ -77,7 +76,7 @@ const Navbar = () => {
               </li>
             ))}
             <li className="mr-5">
-              <a href="/signin">
+              <a href="/resume.pdf" download>
                 <button className="bg-highlight text-beige font-bold py-4 px-6 rounded-2xl hover:bg-orange-600">
                   Resume
                 </button>

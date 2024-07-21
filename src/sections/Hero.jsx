@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import Moon from "../components/Moon";
 import Navbar from "./NavBar";
 import { code } from "../assets";
+import HorizontalLine from "../components/HorizontalLine";
 
 const Hero = () => {
   return (
@@ -10,8 +11,10 @@ const Hero = () => {
     // beige star
     <div id="hero" className="relative h-screen overflow-hidden ">
       {/* <Navbar /> */}
-      <div className="absolute bottom-44 left-16">
-        <h1 className=" text-5xl font-extrabold text-beige">HANAN KEDIR.</h1>
+      <div className="absolute sm:bottom-36 bottom-44 left-12 ">
+        <h1 className=" sm:text-5xl text-4xl font-extrabold text-beige opacity-100">
+          HANAN KEDIR.
+        </h1>
         <TypeAnimation
           sequence={[
             "Software Engineer",
@@ -34,13 +37,14 @@ const Hero = () => {
       <div className="absolute top-16 left-2/3  transform -translate-x-1/4 z-40">
         <Moon />
       </div>
-      <div className="relative h-64 z-20 mt-48 mx-auto">
+      <div className="relative h-64 z-20 md:mt-48 mt-32 mx-auto">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-25 mr-24 z-40 w-1/2 ml-auto"
+          className="absolute inset-0 bg-cover bg-center opacity-45 lg:mr-24 z-40 lg:w-1/2  mr-12 lg:mb-28 mb-32 ml-auto"
           style={{ backgroundImage: `url(${code})` }}
         ></div>
         <div className="relative z-10 p-4">{/* Your content here */}</div>
       </div>
+      {/* <hr className="border-t-2  border-b-0 border-dotted border-beige my-4 lg:border-0 w-2/3 mx-auto" /> */}
     </div>
   );
 };

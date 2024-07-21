@@ -7,11 +7,11 @@ import { FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div id="contact" className="lg:w-1/3 w-2/3 mx-auto my-32">
+    <div id="contact" className="lg:w-1/3 sm:w-2/3 w-4/5 mx-auto my-32">
       <h1 className="text-3xl mt-22 font-bold mb-8">
         <span className="text-highlight">05.</span> Contact
       </h1>
-      <h2>Let's Connect!</h2>
+      <h2 className="font-semibold">Let's Connect!</h2>
       <HorizontalLine />
       <div className="">
         <p className="text-justify">

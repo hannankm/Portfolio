@@ -4,7 +4,7 @@ import SkillCard from "../components/SkillCard";
 
 const Skills = () => {
   return (
-    <div id="skills" className="pt-24 mb-28 w-4/5 mx-auto">
+    <div id="skills" className="pt-28 mb-28 sm:w-4/5 px-4 mx-auto">
       <h1 className="text-3xl mt-22 font-bold mb-12">
         <span className="text-highlight">02.</span> Skills
       </h1>
