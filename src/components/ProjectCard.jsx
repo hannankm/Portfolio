@@ -12,12 +12,16 @@ const ProjectCard = ({ project }) => {
     project.content.substring(0, 150) + " ..."
   );
   return (
-    <div className="my-4 mx-auto inline">
-      <h1 className="text-lg font-bold my-2 ml-4 underline underline-offset-2 decoration-highlight">
+    <div className="my-4 mx-auto inline align-items-center">
+      <h1 className="text-lg font-bold my-2 ml-4  underline underline-offset-2 decoration-highlight">
         {project.title}
       </h1>
 
-      <img className=" rounded mr-2 w-3/4 h-32 my-2" src={project.img} alt="" />
+      <img
+        className=" rounded mr-2 md:w-3/4 w-2/3 md:h-32 h-36 my-2"
+        src={project.img}
+        alt=""
+      />
 
       <div className=" w-4/5  ">
         <p className="text-xs mb-4 text-justify">
@@ -31,14 +35,14 @@ const ProjectCard = ({ project }) => {
         <div className="flex flex-row ">
           {project.demo && (
             <button
-              className={`rounded-xl border-2 border-highlight hover:bg-highlight p-1 my-4 font-bold text-base mr-4`}
+              className={`rounded-xl border-2 border-highlight hover:bg-highlight p-1 my-4 font-semibold lg:text-base text-sm  mr-4`}
             >
               <a href={project.demo}>Live Demo</a>
             </button>
           )}
           {project.code && (
             <button
-              className={`rounded-xl border-2 border-highlight hover:bg-highlight p-1 my-4 font-bold  text-base${
+              className={`rounded-xl border-2 border-highlight hover:bg-highlight p-1 my-4 font-semibold  lg:text-base text-sm ${
                 project.demo && "ml-4"
               }`}
             >
