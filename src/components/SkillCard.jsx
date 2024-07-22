@@ -7,7 +7,10 @@ const SkillCard = ({ title, icon, content }) => {
         <img src={icon} alt={title} className="h-12 w-12" />
         <h1 className="ml-2 text-lg font-bold">{title}</h1>
       </div>
-      <p className="mt-4">{content}</p>
+      <p className="mt-4">
+        <span></span>
+        {content}
+      </p>
     </div>
   );
 };
