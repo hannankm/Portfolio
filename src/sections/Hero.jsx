@@ -1,17 +1,14 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import Moon from "../components/Moon";
-import Navbar from "./NavBar";
 import { code } from "../assets";
-import HorizontalLine from "../components/HorizontalLine";
-
 const Hero = () => {
   return (
     // add gradient on hero
     // beige star
     <div id="hero" className="relative h-screen overflow-hidden ">
       {/* <Navbar /> */}
-      <div className="absolute sm:bottom-36 bottom-44 left-12 ">
+      <div className="absolute sm:bottom-36 bottom-36 left-12 ">
         <h1 className=" sm:text-5xl text-4xl font-extrabold text-beige opacity-100">
           HANAN KEDIR.
         </h1>

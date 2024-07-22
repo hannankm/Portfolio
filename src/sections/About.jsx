@@ -1,12 +1,12 @@
 import React from "react";
 import HorizontalLine from "../components/HorizontalLine";
-import { mypic, hijabi1 } from "../assets";
+import { hijabi1 } from "../assets";
 
 const About = () => {
   return (
     <div
       id="about"
-      className="flex md:flex-row flex-col-reverse align- sm:w-2/3 mx-6 mx-auto justify-between mb-12 lg:pt-24
+      className="flex md:flex-row flex-col-reverse align- sm:w-2/3 sm:mx-auto mx-6 justify-between mb-12 lg:pt-24
       "
     >
       <div className="self-start mr-4 md:w-3/4">

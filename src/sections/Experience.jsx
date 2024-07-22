@@ -1,7 +1,7 @@
 import React from "react";
 import { experience } from "../constants";
 import ExperienceCard from "../components/ExperienceCard";
-import { desk, desk1 } from "../assets";
+import { desk } from "../assets";
 
 const Experience = () => {
   return (
