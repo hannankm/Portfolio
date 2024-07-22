@@ -55,6 +55,69 @@ const experience = [
   },
 ];
 
+const moreprojects = [
+  {
+    id: 1,
+    title: "Hotel Mgmt System",
+    img: project1,
+    content:
+      "A web application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. This system efficiently handles various hotel operations, such as reservations, check-ins, check-outs, room management, and billing. ",
+    stack: ["React Native", "Firebase", "Node"],
+    code: null,
+    demo: "hiii",
+  },
+  {
+    id: 2,
+    title: "Recipe App",
+    img: project3,
+    content:
+      "A web application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. This system efficiently handles various hotel operations, such as reservations, check-ins, check-outs, room management, and billing.",
+    stack: ["React Native", "Firebase", "Node"],
+    code: "hi",
+    demo: null,
+  },
+  {
+    id: 3,
+    title: "Mobile App",
+    img: project2,
+    content:
+      "A mobile application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. This system efficiently handles various hotel operations, such as reservations, check-ins, check-outs, room management, and billing.",
+    stack: ["React Native", "Firebase", "Node"],
+    code: "hi",
+    demo: "null",
+  },
+  {
+    id: 4,
+    title: "Hotel Mgmt System",
+    img: project1,
+    content:
+      "A web application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. This system efficiently handles various hotel operations, such as reservations, check-ins, check-outs, room management, and billing. ",
+    stack: ["React Native", "Firebase", "Node"],
+    code: null,
+    demo: "hiii",
+  },
+  {
+    id: 5,
+    title: "Recipe App",
+    img: project3,
+    content:
+      "A web application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. This system efficiently handles various hotel operations, such as reservations, check-ins, check-outs, room management, and billing.",
+    stack: ["React Native", "Firebase", "Node"],
+    code: "hi",
+    demo: null,
+  },
+  {
+    id: 6,
+    title: "Mobile App",
+    img: project2,
+    content:
+      "A mobile application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. This system efficiently handles various hotel operations, such as reservations, check-ins, check-outs, room management, and billing.",
+    stack: ["React Native", "Firebase", "Node"],
+    code: "hi",
+    demo: "null",
+  },
+];
+
 const projects = [
   {
     id: 1,
@@ -121,4 +184,4 @@ export const navLinks = [
   // },
 ];
 
-export { skills, experience, projects };
+export { skills, experience, projects, moreprojects };
